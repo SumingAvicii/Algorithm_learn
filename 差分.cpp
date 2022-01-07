@@ -15,7 +15,7 @@ int main()
         scanf("%d", &a[i]);
         b[i] = a[i] - a[i-1];
     }
-    
+    //差分关键部分
     int l, r, c;
     while (m -- )
     {
